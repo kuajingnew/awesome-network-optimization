@@ -146,11 +146,62 @@ apt install mariadb-server -y
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
 ```
 
-### 安装 Docker（通用）
+### 安装 Docker + Docker Compose（通用必备）
+
+> Docker 是部署服务的**最快捷方式**，后面 VPS 上绝大多数玩法（密码管理器、网盘、AI助手）都依赖它。建议必装。
 
 ```bash
+# 一键安装 Docker
 curl -fsSL https://get.docker.com | bash
+
+# 安装 Docker Compose（管理多容器应用）
+apt install docker-compose-plugin -y
+
+# 验证安装
+docker --version
+docker compose version
 ```
+
+#### Docker 常用命令速查
+
+| 命令 | 作用 | 示例 |
+|:----|:-----|:------|
+| `docker ps` | 查看运行中的容器 | `docker ps` |
+| `docker ps -a` | 查看所有容器（含已停止） | `docker ps -a` |
+| `docker images` | 查看已拉取的镜像 | `docker images` |
+| `docker pull xxx` | 拉取镜像 | `docker pull nginx` |
+| `docker run -d xxx` | 后台运行容器 | `docker run -d -p 80:80 nginx` |
+| `docker stop xxx` | 停止容器 | `docker stop my-web` |
+| `docker rm xxx` | 删除容器 | `docker rm my-web` |
+| `docker logs xxx` | 查看容器日志 | `docker logs -f my-web` |
+| `docker exec -it xxx bash` | 进入容器命令行 | `docker exec -it my-web bash` |
+
+> 💡 **装好 Docker 后能做什么？** 看 [「买了VPS能做什么」15+玩法大全](vps-use-cases.md)，密码管理器、云音乐、导航站、AI助手，一行命令就能部署。
+
+#### Docker Compose 示例（多服务一键启动）
+
+创建一个 `docker-compose.yml` 文件，可以把多个服务编排在一起：
+
+```yaml
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./html:/usr/share/nginx/html
+
+  mysql:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+```
+
+启动：`docker compose up -d`
+停止：`docker compose down`
 
 ---
 

@@ -35,8 +35,51 @@
 | **macOS** | ClashX / Stash（付费） | 官网下载 |
 | **Android** | Clash Meta for Android / Surfboard | Google Play 或官网 |
 | **iOS** | Stash（推荐）/ Shadowrocket | App Store（部分需美区账号） |
-| **Linux** | Clash Verge | GitHub Releases |
+| **Linux** | Clash Verge / sing-box | GitHub Releases |
 | **路由器** | OpenClash / PassWall | 路由器插件市场 |
+
+### ⚙️ 常用客户端详细介绍
+
+#### Clash Verge（推荐，全平台通用）
+
+> Clash Verge 是目前最流行的跨平台 Clash 客户端，界面现代化，支持 Windows/macOS/Linux。
+
+1. 从 [GitHub Releases](https://github.com/clash-verge-rev/clash-verge-rev/releases) 下载对应版本
+2. 安装并打开
+3. 点击 **「订阅」→「添加」**
+4. 填写 **名称**（随便填）和 **订阅链接**（从机场复制）
+5. 点击 **「导入」**，客户端会自动拉取节点
+6. 切换到 **「代理」** 页面，选择节点
+7. 开启 **「系统代理」**（浏览器用）或 **「TUN 模式」**（全局所有流量）
+
+#### Stash（iOS 推荐）
+
+> iOS 上最稳定的 Clash 客户端，功能完整，支持订阅、规则编辑、TUN 模式。
+
+1. App Store 搜索 **Stash** 下载（付费软件，约 ¥28）
+2. 打开后点击 **「+」→「从 URL 下载」**
+3. 粘贴订阅链接
+4. 选择策略模式（推荐 **规则模式**）
+5. 开启 **「隧道模式」** 或 **「代理模式」**
+
+> ⚠️ 部分机场支持 **一键导入**，在机场后台点击「一键导入 Stash」即可自动配置，更方便。
+
+#### Shadowrocket（iOS 备选）
+
+> 老牌 iOS 代理客户端，轻量级，¥2.99 美元。
+
+1. 需要 **美区 Apple ID** 才能下载（国区已下架）
+2. 打开后点击右上角 **「+」**
+3. 类型选择 **Subscribe**（订阅）
+4. 粘贴订阅链接
+5. 保存后选择节点连接
+
+#### sing-box（新一代代理客户端）
+
+> sing-box 是新兴的通用代理平台，性能优于 Clash，配置更灵活。适合进阶用户。
+
+- 官网：[https://sing-box.sagernet.org](https://sing-box.sagernet.org)
+- 推荐搭配 GUI 客户端：SFI（Windows）/ sing-box for Android / sing-box for iOS
 
 > ⚠️ iOS 推荐使用 **Stash**（付费），部分机场可能不支持 Shadowrocket。
 

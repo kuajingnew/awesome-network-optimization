@@ -3,9 +3,10 @@
 > 精选主流网络加速服务（机场）与云服务器（VPS）横向评测，帮助您找到最适合自己需求的高性价比方案。**内容每月更新。**
 
 [![GitHub stars](https://img.shields.io/github/stars/kuajingnew/awesome-network-optimization)](https://github.com/kuajingnew/awesome-network-optimization/stargazers)
-[![Last Updated](https://img.shields.io/badge/更新日期-2026--07--28-brightgreen)]()
+[![Last Updated](https://img.shields.io/badge/更新日期-2026--07--29-brightgreen)]()
 [![Airports](https://img.shields.io/badge/收录机场-13家-blue)]()
 [![VPS](https://img.shields.io/badge/收录VPS-8家-orange)]()
+[![Guides](https://img.shields.io/badge/深度教程-7篇-purple)]()
 
 ---
 
@@ -22,13 +23,17 @@
 
 ## 🌟 热门推荐
 
-> 👑 **编辑精选** — 综合速度、价格、稳定性推荐的 TOP 3
+> 👑 **编辑精选** — 从12大真实场景出发，帮你快速定位
 
-| 排名 | 服务商 | 类型 | 起售价 | 核心优势 |
-|:----:|--------|:----:|:------:|----------|
-| 🥇 | **[自由猫](airports/featured/freecat.md)** | 机场 | **¥6/月** | 全球110+节点，1000Mbps，解锁全流媒体 |
-| 🥈 | **[万达云](airports/featured/wandacloud.md)** | 机场 | **¥16/月** | IEPL专线，不限速，50台设备，性价比之王 |
-| 🥉 | **[SS-ID](airports/featured/ss-id.md)** | 机场 | **¥20/月** | IEPL专线，全流媒体解锁，新疆优化可选 |
+| 排名 | 服务商 | 类型 | 起售价 | 适合场景 | 核心优势 |
+|:----:|--------|:----:|:------:|----------|----------|
+| 🥇 | **[自由猫](airports/featured/freecat.md)** | 机场 | **¥6/月** | 入门首选·AI工具·流媒体 | 全球110+节点，1000Mbps，¥6超低门槛 |
+| 🥈 | **[万达云](airports/featured/wandacloud.md)** | 机场 | **¥16/月** | 币圈交易·家庭共享·TikTok | IEPL专线，不限速，50台设备，性价比之王 |
+| 🥉 | **[SS-ID](airports/featured/ss-id.md)** | 机场 | **¥20/月** | 专线品质·新疆优化·4K观影 | IEPL专线，全流媒体解锁，新疆优化可选 |
+
+> 💡 **不知道怎么选？** 直接看 [🎯 场景导购](#-场景导购) 按你的需求对号入座。
+>
+> 💡 **想自建？** 看看 [VPS自建代理节点](guides/vps-xray-setup.md) 或 [买了VPS能做什么](guides/vps-use-cases.md)。
 
 > 💡 **新用户建议**：预算有限先试自由猫 ¥6/月入门；追求稳定看万达云 IEPL 专线；需要大流量果断 SS-ID。
 
@@ -220,7 +225,7 @@
 | 日期 | 更新内容 |
 |:----:|----------|
 | 2026-07-28 | 🎉 仓库初始化，收录13家机场 + 8家VPS |
-| 2026-07-29 | 📖 全面重写场景导购（12大场景覆盖币圈/AI/跨境/游戏/学术等）<br>📚 新增 Hermes Agent+飞书集成、VPS自建代理、VPS玩法大全 3篇深度教程 |
+| 2026-07-29 | 📖 全面重写场景导购（12大场景覆盖币圈/AI/跨境/游戏/学术等）<br>📚 新增 Hermes Agent+飞书集成、VPS自建代理、VPS玩法大全 3篇深度教程<br>🔗 评测页增加场景导购交叉引用<br>📘 客户端配置指南扩充（Clash Verge/Stash/Shadowrocket/sing-box）<br>🐳 VPS初始化教程扩充Docker实操<br>🔧 修复对比表数据标注 |
 
 ---
 
