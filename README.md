@@ -120,12 +120,12 @@
 
 ## 📚 使用教程
 
-> ⏳ 教程内容持续建设中...
-
-- [机场客户端配置指南](guides/client-setup.md) — 快速上手
-- [Clash Meta 进阶配置](guides/clash-meta-guide.md) — 分流规则、策略组
-- [路由器 OpenClash 配置](guides/openclash-setup.md) — 软路由全局科学上网
-- [VPS 购买与初始化](guides/vps-quickstart.md) — 服务器到手后第一件事
+| 教程 | 难度 | 耗时 |
+|:----|:----:|:----:|
+| [🚀 机场客户端配置指南](guides/client-setup.md) — 从注册到连上，5分钟上手 | 🟢 入门 | ⏱️ 5分钟 |
+| [🖥️ VPS 购买与初始化](guides/vps-quickstart.md) — 选购、SSH、LNMP、Docker 一条龙 | 🟢 入门 | ⏱️ 10分钟 |
+| [⚙️ Clash Meta 进阶配置](guides/clash-meta-guide.md) — 分流规则、策略组、TUN 模式 | 🟡 进阶 | ⏱️ 15分钟 |
+| [📡 路由器 OpenClash 配置](guides/openclash-setup.md) — 软路由全屋科学上网 | 🔴 高级 | ⏱️ 20分钟 |
 
 ---
 
