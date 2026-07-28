@@ -12,18 +12,21 @@
 |:----|:--------|:--------:|
 | [机场客户端配置指南](client-setup.md) | 新手第一次使用 | ⏱️ 5分钟 |
 | [VPS 购买与初始化](vps-quickstart.md) | 想买服务器但不知道怎么选 | ⏱️ 10分钟 |
+| [📋 买了VPS能做什么？](vps-use-cases.md) | 买了VPS不知道装什么好 | ⏱️ 5分钟 |
 
 ### 🟡 进阶级
 
 | 教程 | 适合人群 | 预计耗时 |
 |:----|:--------|:--------:|
 | [Clash Meta 进阶配置](clash-meta-guide.md) | 已会基础使用，想优化分流策略 | ⏱️ 15分钟 |
+| [🛡️ VPS自建代理节点](vps-xray-setup.md) | 想自己搭节点，不用机场 | ⏱️ 15分钟 |
 
 ### 🔴 高级
 
 | 教程 | 适合人群 | 预计耗时 |
 |:----|:--------|:--------:|
 | [路由器 OpenClash 配置](openclash-setup.md) | 软路由用户，想实现全局科学上网 | ⏱️ 20分钟 |
+| [🤖 Hermes Agent 部署+飞书集成](hermes-agent-setup.md) | 想在VPS上跑AI助手，对接飞书聊天操控 | ⏱️ 25分钟 |
 
 ---
 
@@ -31,14 +34,20 @@
 
 ```
 新手
- ├── ① 先选一家机场 → 看看我们的 [机场推荐](../README.md#-热门推荐)
+ ├── ① 先选一家机场 → 看看我们的 [场景导购](../README.md#-场景导购)
  ├── ② 按 [客户端配置指南](client-setup.md) 上手
- └── ③ 试用几天后，看 [Clash Meta进阶](clash-meta-guide.md) 优化体验
+ ├── ③ 试用几天后，看 [Clash Meta进阶](clash-meta-guide.md) 优化体验
+ └── ④ 买了VPS？看看 [能做什么](vps-use-cases.md)
 
 进阶
  ├── 想全局覆盖 → 搞软路由看 [OpenClash教程](openclash-setup.md)
- ├── 想自建节点 → 先买VPS看 [VPS购买指南](vps-quickstart.md)
+ ├── 想自建节点 → 先买VPS看 [Xray+Reality搭建](vps-xray-setup.md)
  └── 想省流量 → 学 Clash 分流规则，让国内流量直连
+
+高级
+ ├── 想在VPS上跑AI助手 → [Hermes Agent+飞书](hermes-agent-setup.md)
+ ├── 想私有化部署各种服务 → [VPS玩法大全](vps-use-cases.md)
+ └── 想极致性能 → 买高端VPS + 自建代理
 ```
 
 ---

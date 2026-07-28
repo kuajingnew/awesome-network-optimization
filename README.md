@@ -36,39 +36,122 @@
 
 ## 🎯 场景导购
 
-### 🎬 流媒体观影（Netflix / Disney+ / HBO）
+> 不同的需求对应不同的选择。按你的实际场景对号入座，快速找到最适合的方案。
 
-| 推荐 | 理由 |
-|------|------|
-| 🥇 **自由猫** ¥6/月起 | Netflix/Hulu/HBO/Disney+/Dazn/ChatGPT 全解锁 |
-| 🥇 **SS-ID** ¥20/月起 | 全流媒体解锁保证，IEPL专线畅享4K |
-| 🥇 **万达云** ¥16/月起 | IEPL专线低延迟，晚高峰不限速 |
+### 💰 币圈/加密货币
 
-### 💻 办公 / 科研 / AI工具（ChatGPT / Claude）
+| 场景 | 需求 | 推荐 |
+|:----|:----|:----:|
+| 币安/OKX/Bybit 交易 | 低延迟，不掉线 | **自由猫** / **万达云** |
+| MetaMask/TP钱包交互 | 稳定的 RPC 连接 | **万达云** IEPL专线 |
+| 链上撸空投/跨链桥 | 原生IP+稳定性 | **SS-ID** / **酷酷云** |
+| NFT Mint/交易 | 快速响应，避免踩踏 | **万达云** 不限速 |
 
-| 推荐 | 理由 |
-|------|------|
-| 🥇 **CyberGuard** ¥32/月起 | 明确标注支持 ChatGPT/Claude，不限设备 |
-| 🥇 **酷酷云** ¥20/月起 | 原生解锁 ChatGPT/Claude，BGP三网专线 |
-| 🥇 **自由猫** ¥6/月起 | 最低成本使用 ChatGPT，流媒体+AI 两不误 |
+### 🤖 AI工具全家桶
 
-### 🚀 大流量 / 不限时套餐
+| 场景 | 需求 | 推荐 |
+|:----|:----|:----:|
+| ChatGPT / Claude | 原生IP解锁，不限设备 | **CyberGuard** / **酷酷云** |
+| Gemini / Perplexity | 稳定访问，多轮对话 | **自由猫** ¥6起入门 |
+| Midjourney Discord作图 | Discord不掉线 | **万达云** IEPL专线 |
+| GitHub Copilot / Codeium | 低延迟代码补全 | **自由猫** / **闪狐云** |
+| HuggingFace下模型 | 大流量下载 | **红杏云** 不限时6000G |
+| Ollama/Open WebUI自建 | 需要VPS跑私有AI | 👉 [看VPS推荐](#️-云服务器vps-推荐) |
 
-| 推荐 | 流量 | 价格 |
-|------|:----:|:----:|
-| **红杏云** | 6000G 不限时 | ¥688 |
-| **酷酷云** | 1000G/月 | ¥160 |
-| **自由猫** | 5TB 不限时 | ¥338 |
-| **CyberGuard** | 2160G 不限时 | ¥550 |
+### 📱 社交/内容平台
 
-### 🌍 国外VPS 建站 / 自建节点
+| 场景 | 需求 | 推荐 |
+|:----|:----|:----:|
+| Twitter/X / Instagram | 刷图刷视频流畅 | **自由猫** 入门够用 |
+| TikTok运营/直播 | 原生IP+稳定上行 | **闪狐云** 定制方案 |
+| Telegram群组 | 不掉线，文件下载快 | **万达云** 不限速 |
+| Discord语音开黑 | 低延迟不卡顿 | **SS-ID** 专线 |
+| Reddit / Quora | 浏览发帖稳定 | **自由猫** 经济型 |
 
-| 推荐 | 用途 | 特点 |
-|------|------|------|
-| **RackNerd** | 建站/轻量应用 | 低价VPS，年付$10+起 |
-| **BandwagonHost** | 自建代理 | CN2 GIA线路，中国优化 |
-| **DMIT** | 高要求业务 | 高端线路，中国大陆优化 |
-| **HostDare** | 性价比建站 | 电信CN2 GT，稳定可靠 |
+### 🎬 流媒体/娱乐
+
+| 场景 | 需求 | 推荐 |
+|:----|:----|:----:|
+| Netflix 美区/日区/韩区 | 原生IP解锁+4K | **自由猫** / **SS-ID** |
+| Disney+ / HBO Max | 稳定解锁不封IP | **万达云** IEPL专线 |
+| YouTube Premium（去广告） | 长期挂机稳定 | **自由猫** 性价比之选 |
+| Spotify Premium | 后台播放不掉线 | **酷酷云** BGP三网 |
+| DAZN体育直播 | 低延迟流畅播放 | **万达云** 不限速 |
+| Abema TV（日本）/ TVB（香港） | 区域解锁 | **SS-ID** 区域节点 |
+
+### 🎮 游戏
+
+| 场景 | 需求 | 推荐 |
+|:----|:----|:----:|
+| Steam/Epic 买游戏+联机 | 商店打开快，联机不丢包 | **万达云** 专线 |
+| APEX / 瓦罗兰特 | 低延迟关键 | **DMIT VPS** 高端线路 |
+| 原神/星铁 外服 | 稳定不掉线 | **SS-ID** 专线 |
+| PS5/Xbox/Switch 联机 | 路由器端全局代理 | 👉 [OpenClash教程](guides/openclash-setup.md) |
+| 加速器切换 | 不想折腾客户端 | 👉 [路由器全局方案](guides/openclash-setup.md) |
+
+### 🛒 跨境电商/外贸
+
+| 场景 | 需求 | 推荐 |
+|:----|:----|:----:|
+| 亚马逊/Shopify运营 | 后台稳定，不掉线 | **万达云** / **CyberGuard** |
+| Facebook/Google广告投放 | 稳定IP，避免封号 | **闪狐云** 原生IP定制 |
+| TikTok Shop带货 | 原生IP+高上行 | **闪狐云** 定制方案 |
+| 邮件营销 | 稳定连接，合规 | **酷酷云** BGP三网 |
+| 独立站运营 | 需要同时访问多个海外平台 | **SS-ID** 全解锁 |
+
+### 💻 程序员/开发者
+
+| 场景 | 需求 | 推荐 |
+|:----|:----|:----:|
+| GitHub clone/push（raw被墙） | 稳定的Git访问 | **自由猫** 入门够用 |
+| npm/pip/Docker Hub拉镜像 | 大流量+速度 | **万达云** 不限速 |
+| Stack Overflow / Google搜索 | 低延迟 | **自由猫** 经济型 |
+| HuggingFace下载模型 | 大文件下载 | **红杏云** 不限时6000G |
+| 自建GitLab/Gitea代码托管 | 需要VPS跑服务 | 👉 [看VPS推荐](#️-云服务器vps-推荐) |
+
+### 🌏 海外华人/留学生
+
+| 场景 | 需求 | 推荐 |
+|:----|:----|:----:|
+| 翻墙回国看腾讯视频/爱奇艺 | 国内节点加速 | **国内优化线路** |
+| 听网易云/QQ音乐（海外受限） | 国内IP解锁 | **国内回源** 方案 |
+| 打国服游戏（低延迟） | 国内服务器直连优化 | 👉 [VPS自建回国代理](guides/vps-xray-setup.md) |
+| 查中文资料/看B站 | 稳定国内访问 | **HostDare** CN2 GT |
+| 留学申请/学校系统 | 稳定不掉线 | **自由猫** 入门即可 |
+
+### 📰 信息获取/学术
+
+| 场景 | 需求 | 推荐 |
+|:----|:----|:----:|
+| 维基百科 / Google Scholar | 基础访问 | **自由猫** ¥6起 |
+| ArXiv / IEEE / ACM论文 | 稳定下载PDF | **酷酷云** 大流量 |
+| Wall Street Journal / Bloomberg | 新闻订阅 | **SS-ID** 全解锁 |
+| Twitter热门 / Reddit社区 | 实时信息流 | **自由猫** 入门够用 |
+| 学术数据库（PubMed等） | 稳定访问 | **万达云** 专线 |
+
+### 🏢 外企打工人/跨境办公
+
+| 场景 | 需求 | 推荐 |
+|:----|:----|:----:|
+| 访问公司SAP/Oracle/Jira | 稳定不掉线 | **万达云** IEPL专线 |
+| Slack/Teams/Figma协作 | 实时同步 | **酷酷云** 低延迟 |
+| Confluence/Notion文档 | 中文+海外团队协作 | **自由猫** 稳定型 |
+| 远程办公VPN | 企业合规要求 | 👉 [VPS自建方案](guides/vps-xray-setup.md) |
+
+### 🖥️ 买了VPS能做什么？
+
+| 场景 | 教程 | 推荐VPS |
+|:----|:----|:-------:|
+| 🔐 自建密码管理器 | 👉 [Vaultwarden部署](guides/vps-use-cases.md#密码管理器) | **RackNerd** 低配够用 |
+| 🤖 部署AI助手(Hermes+飞书) | 👉 [Hermes Agent教程](guides/hermes-agent-setup.md) | **BandwagonHost** 稳定 |
+| 🛡️ 自建代理节点 | 👉 [Xray+Reality搭建](guides/vps-xray-setup.md) | **BandwagonHost** CN2 GIA |
+| 📦 自建网盘/备份 | 👉 [Cloudreve部署](guides/vps-use-cases.md#自建网盘) | **RackNerd** 大硬盘款 |
+| 📊 网站监控/Uptime | 👉 [监控工具部署](guides/vps-use-cases.md#监控告警) | **RackNerd** ¥10/年 |
+| 🎵 自建云音乐 | 👉 [Navidrome搭建](guides/vps-use-cases.md#自建音乐) | 任何VPS |
+| ⚙️ 跑脚本/自动化 | cron任务、爬虫、定时备份 | 任何VPS |
+| 🧭 自建导航站 | 👉 [书签管理系统](guides/vps-use-cases.md#导航站) | **RackNerd** 入门款 |
+
+> 📖 **VPS详细教程合集** → [买了VPS能做什么](guides/vps-use-cases.md) · [VPS选购指南](vps/README.md)
 
 ---
 
@@ -124,7 +207,10 @@
 |:----|:----:|:----:|
 | [🚀 机场客户端配置指南](guides/client-setup.md) — 从注册到连上，5分钟上手 | 🟢 入门 | ⏱️ 5分钟 |
 | [🖥️ VPS 购买与初始化](guides/vps-quickstart.md) — 选购、SSH、LNMP、Docker 一条龙 | 🟢 入门 | ⏱️ 10分钟 |
+| [📋 买了VPS能做什么](guides/vps-use-cases.md) — 密码管理·网盘·AI·音乐·监控等15+玩法 | 🟢 入门 | ⏱️ 5分钟 |
+| [🛡️ VPS自建代理节点](guides/vps-xray-setup.md) — Xray+Reality 从零搭建 | 🟡 进阶 | ⏱️ 15分钟 |
 | [⚙️ Clash Meta 进阶配置](guides/clash-meta-guide.md) — 分流规则、策略组、TUN 模式 | 🟡 进阶 | ⏱️ 15分钟 |
+| [🤖 Hermes Agent 部署+飞书集成](guides/hermes-agent-setup.md) — AI助手私有化，含飞书权限逐项说明 | 🔴 高级 | ⏱️ 25分钟 |
 | [📡 路由器 OpenClash 配置](guides/openclash-setup.md) — 软路由全屋科学上网 | 🔴 高级 | ⏱️ 20分钟 |
 
 ---
@@ -134,6 +220,7 @@
 | 日期 | 更新内容 |
 |:----:|----------|
 | 2026-07-28 | 🎉 仓库初始化，收录13家机场 + 8家VPS |
+| 2026-07-29 | 📖 全面重写场景导购（12大场景覆盖币圈/AI/跨境/游戏/学术等）<br>📚 新增 Hermes Agent+飞书集成、VPS自建代理、VPS玩法大全 3篇深度教程 |
 
 ---
 
