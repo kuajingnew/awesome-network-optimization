@@ -1,0 +1,20 @@
+# API 配置（包含敏感地址，不同步到仓库）
+.api-config
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
