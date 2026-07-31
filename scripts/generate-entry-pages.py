@@ -346,7 +346,7 @@ def build_page(airport, extra):
 ## 🧩 核心特点
 
 - **带宽**：{airport.get('common_speed', '-') or '-'}
-- **节点覆盖**：{compact_advantage(airport.get('common_advantage')) or '详见官网'}
+- **节点覆盖**：{extra.get('advantage') or compact_advantage(airport.get('common_advantage')) or '详见官网'}
 - **流媒体**：{airport.get('common_media', '-') or '-'}
 - **国内可访问**：{mainland}
 
