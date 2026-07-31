@@ -143,7 +143,6 @@ def compact_advantage(adv):
         text = text[:97].rstrip("、，,") + "…"
     return text.strip()
 
-
 def build_intro(airport, extra):
     name = airport["name"]
     if "blurb" in extra:
@@ -193,16 +192,17 @@ def price_range(airport):
 
 
 def value_analysis(airport):
-    """自动性价比分析: 最低入门价 / 月付最划算 / 囤流量最划算"""
+    """自动性价比分析: 最低入门价 / 月付最划算 / 囤流量最划算（排除¥0体验套餐）"""
     plans = airport.get("plans") or []
     if not plans:
         return ""
     period, lifetime = plans_grouped(airport)
     monthly = [p for p in period if p.get("duration") == "月"]
     lines = []
-    # 最低入门价
-    cheap = min(period + lifetime, key=lambda p: float(p.get("price", 0)))
-    if cheap:
+    # 最低入门价（排除 ¥0 体验套餐）
+    real = [p for p in period + lifetime if float(p.get("price", 0)) > 0]
+    if real:
+        cheap = min(real, key=lambda p: float(p.get("price", 0)))
         lines.append(f"- **最低入门价**：¥{cheap.get('price')}（{cheap.get('name')}）")
     # 月付最划算（¥/G 最低）
     month_pg = [(p, per_gb(p)) for p in monthly]
@@ -345,9 +345,9 @@ def build_page(airport, extra):
 {quick_section}
 ## 🧩 核心特点
 
-- **带宽**：{airport.get('common_speed', '-')}
-- **节点覆盖**：{compact_advantage(airport.get('common_advantage'))}
-- **流媒体**：{airport.get('common_media', '-')}
+- **带宽**：{airport.get('common_speed', '-') or '-'}
+- **节点覆盖**：{compact_advantage(airport.get('common_advantage')) or '详见官网'}
+- **流媒体**：{airport.get('common_media', '-') or '-'}
 - **国内可访问**：{mainland}
 
 ---
