@@ -90,9 +90,13 @@ print(f'       机场: {stats[\"airport_count\"]}家, 主推: {stats[\"featured_
 print(f'       VPS: {stats[\"server_count\"]}家')
 "
 
+# 生成机场入口页（套餐价格每日自动更新）
+echo ">>> 生成机场入口页..."
+python3 "$REPO_DIR/scripts/generate-entry-pages.py" || echo "[WARN] 入口页生成失败，不影响数据同步"
+
 # Git 提交
 cd "$REPO_DIR"
-git add _data/
+git add _data/ airports/entry/ README.md
 git commit -m "📊 数据自动同步 @ $TIMESTAMP" || echo "       ℹ️  无变更，跳过提交"
 git push origin main
 
