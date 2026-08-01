@@ -169,7 +169,7 @@
 | 机场 | 带宽 | 价格区间 | 亮点 | 官网入口 |
 |------|------|---------|------|---------|
 | ⭐ SS-ID | 1000Mbps | ¥20 ~ ¥85 | 追求线路质量 / 新疆地区用户 / 流媒体重度用户 / 中等流量需求 | [进入官网 →](airports/entry/ss-id.md) |
-| ⭐ 万达云 | 最大峰值1000Mbps | ¥16 ~ ¥350 | 追求IEPL专线但预算有限 / 家庭共享 / TikTok创作者 / 大流量用户 | [进入官网 →](airports/entry/wandacloud.md) |
+| ⭐ 仙路湾 | 120Mbps | ¥0 ~ ¥200 | 全球流媒体解锁，热门平台随心看 | [进入官网 →](airports/entry/xianluwan.md) |
 | ⭐ 自由猫 | 1000Mbps | ¥6 ~ ¥338 | 预算敏感 / 流媒体爱好者 / AI工具用户 / 备用方案 | [进入官网 →](airports/entry/freecat.md) |
 | BoostNet | 1000Mbps | ¥200 ~ ¥388 | 企业/团队使用（30台套餐）/ 年付锁定低价 | [进入官网 →](airports/entry/boostnet.md) |
 | CyberGuard | 1000Mbps | ¥32 ~ ¥550 | AI 工具解锁（ChatGPT/Claude）/ 家庭共享不限设备 / 囤流量 | [进入官网 →](airports/entry/cyberguard.md) |
@@ -177,7 +177,7 @@
 | SKYLUMO | 100 Mbps 带宽保证 | ¥6.99 ~ ¥399.99 | 预算 ¥10/月以内的入门用户 | [进入官网 →](airports/entry/skylumo.md) |
 | VikingLinks | 1000Mbps | ¥72 ~ ¥418 | 企业/团队使用（IEPL专线） | [进入官网 →](airports/entry/vikinglinks.md) |
 | 一枝红杏 | 1000 Mbps | ¥99 ~ ¥499 | 年付锁定低价 / 长期用户 | [进入官网 →](airports/entry/yizhihongxing.md) |
-| 仙路湾 | 120Mbps | ¥0 ~ ¥200 | 全球流媒体解锁，热门平台随心看 | [进入官网 →](airports/entry/xianluwan.md) |
+| 万达云 | 最大峰值1000Mbps | ¥16 ~ ¥350 | 追求IEPL专线但预算有限 / 家庭共享 / TikTok创作者 / 大流量用户 | [进入官网 →](airports/entry/wandacloud.md) |
 | 大象网络 | 120Mbps | ¥12 ~ ¥55 | 全球流媒体解锁，热门平台随心看 | [进入官网 →](airports/entry/daxiang.md) |
 | 山水云 | 1000Mbps | ¥14.99 ~ ¥222 | GPT，Tiktok等全流媒体 | [进入官网 →](airports/entry/shanshuiyun.md) |
 | 悠兔 | 1000Mbps | ¥199 ~ ¥366 | 海外用户回国 / 含住宅IP | [进入官网 →](airports/entry/youtu.md) |
